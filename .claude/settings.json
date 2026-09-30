@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash .phase/verify/*)",
+      "Bash(bash .phase/critic.sh *)",
+      "Bash(bash .phase/tools/*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git switch*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(php -l *)",
+      "Bash(npm --prefix frontend run *)"
+    ],
+    "deny": [
+      "Edit(/bitrix/**)",
+      "Write(/bitrix/**)",
+      "Edit(/design/**)",
+      "Write(/design/**)",
+      "Bash(git push*)",
+      "Bash(git reset --hard*)"
+    ]
+  }
+}

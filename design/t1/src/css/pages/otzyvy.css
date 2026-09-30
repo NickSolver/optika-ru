@@ -1,0 +1,7 @@
+.reviews-salon-select{
+  display:block;width:100%;max-width:762px;padding:.7rem 1rem;border-radius:var(--radius-sm);border:1.5px solid var(--border);
+  font-size:.92rem;color:var(--ink);background:#fff;margin:0 auto 22px;cursor:pointer;
+}
+.reviews-salon-select:focus{outline:none;border-color:var(--green)}
+.reviews-widget-wrap{width:100%;max-width:762px;height:800px;margin:0 auto}
+@media (max-width:640px){.reviews-widget-wrap{height:560px}}

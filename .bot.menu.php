@@ -1,0 +1,60 @@
+<?php
+$aMenuLinks = Array(
+	Array(
+		"Услуги", 
+		"/nashi-uslugi/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции и скидки", 
+		"/aktsii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/kontaktyi/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Условия покупки", 
+		"/dostavka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"/o-kompanii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Партнёры", 
+		"/partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Блог", 
+		"/blog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вакансии", 
+		"/o-kompanii/vacancies/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

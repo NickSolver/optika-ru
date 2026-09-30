@@ -1,0 +1,17 @@
+{
+  "name": "optika-design2",
+  "version": "1.0.0",
+  "description": "Lokamed site build: bundles src/js into assets/js/bundle.js and src/css into assets/css/*.css",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "esbuild src/js/main.js --bundle --outfile=assets/js/bundle.js",
+    "build:css": "esbuild src/css/styles.css --bundle --minify --outfile=assets/css/styles.css && esbuild src/css/pages/*.css --bundle --minify --outbase=src/css/pages --outdir=assets/css && esbuild src/css/shared/*.css --bundle --minify --outbase=src/css/shared --outdir=assets/css",
+    "watch": "esbuild src/js/main.js --bundle --outfile=assets/js/bundle.js --watch"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

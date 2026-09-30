@@ -1,0 +1,1 @@
+<img width="auto" src="/images/logo_fin2.png">

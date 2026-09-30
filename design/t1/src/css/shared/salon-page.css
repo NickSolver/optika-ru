@@ -1,0 +1,22 @@
+.salon-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
+.salon-tile{border:1px solid var(--border);border-radius:var(--radius-card);overflow:hidden;background:#fff;cursor:pointer;transition:transform .2s var(--ease-out),box-shadow .2s var(--ease-out),border-color .2s}
+.salon-tile:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:transparent}
+.salon-tile-media{aspect-ratio:4/3;overflow:hidden;background:#fbfcfe}
+.salon-tile-media img{width:100%;height:100%;object-fit:cover;transition:transform .4s var(--ease-out)}
+.salon-tile:hover .salon-tile-media img{transform:scale(1.06)}
+.salon-tile-body{padding:16px 18px}
+.salon-tile-body h3{font-size:.98rem;margin-bottom:8px}
+.salon-tile-addr{display:flex;gap:8px;font-size:.85rem;color:var(--ink-soft);margin-bottom:8px;line-height:1.4}
+.salon-tile-addr .icon{width:16px;height:16px;color:var(--green-dark);flex-shrink:0;margin-top:2px}
+.salon-tile-hours{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-faint)}
+.salon-tile-hours .icon{width:14px;height:14px;flex-shrink:0}
+
+@media (max-width:1024px){.salon-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.salon-grid{grid-template-columns:1fr}}
+
+.salon-map-full{border-radius:var(--radius-card);overflow:hidden;border:1px solid var(--border)}
+.salon-map-full iframe{display:block}
+.salon-modal-media{aspect-ratio:16/9;border-radius:var(--radius-card);overflow:hidden;margin-bottom:16px}
+.salon-modal-media img{width:100%;height:100%;object-fit:cover}
+.salon-modal-map{border-radius:var(--radius-sm);overflow:hidden;border:1px solid var(--border-soft)}
+.salon-modal-map iframe{display:block}

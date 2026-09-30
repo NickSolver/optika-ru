@@ -1,0 +1,6 @@
+@import '../shared/article-page.css';
+
+.blog-related{margin-top:52px;padding-top:36px;border-top:1px solid var(--border-soft)}
+.blog-related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+@media (max-width:1024px){.blog-related-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.blog-related-grid{grid-template-columns:1fr}}
